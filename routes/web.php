@@ -11,6 +11,12 @@
 |
 */
 
+Route::redirect('/', '/products', 301);
+
 Route::get('products', function () {
     return view('products.index');
-});
+})->name('get_products');
+
+Route::get('products/new', function () {
+    return view('products.new');
+})->name('new_product');

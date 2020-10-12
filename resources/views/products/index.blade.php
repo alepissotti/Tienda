@@ -5,7 +5,7 @@
                 <div class="card">
                     <div class="card-header">
                         Listado de productos
-                        <a href="" class="btn btn-sm btn-success float-right">Agregar producto</a>
+                    <a href="{{route('new_product')}}" class="btn btn-sm btn-success float-right">Agregar producto</a>
                     </div>
                     <div class="card-body">
                         ...
